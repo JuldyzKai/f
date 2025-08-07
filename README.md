@@ -16,7 +16,7 @@
             background-color: #fffdfd00;
             display: flex;
             min-height: 100vh;
-            background-image: url('абай.jpg');
+            background-image: url('Aбай.jpg');
             background-size: contain;
             
            background-repeat: no-repeat;
