@@ -1,1 +1,153 @@
-# f
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Абай Құнанбайұлы - Бірінші қарасөз</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            color: white;
+            background-color: #fffdfd00;
+            display: flex;
+            min-height: 100vh;
+            background-image: url('абай.jpg');
+            background-size: contain;
+            
+           background-repeat: no-repeat;
+    background-position:  center; 
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+        }
+
+        .container {
+            max-width: 1700px;
+            margin: 40px auto;
+            padding: 30px;
+            background-color: rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
+            text-align: justify;
+        }
+       
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.2em;
+            color: #f8f8f8;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+            padding-bottom: 10px;
+            border-bottom: 1px solid #444;
+        }
+        
+        p {
+            margin-bottom: 25px;
+            font-size: 1.1em;
+            text-indent: 30px;
+        }
+        
+        .author {
+            text-align: right;
+            font-style: italic;
+            margin-top: 40px;
+            font-size: 1.2em;
+            color: #ddd;
+        }
+        
+        audio {
+            display: none;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: top center;
+                padding-top: 200px;
+            }
+            
+            .container {
+                margin: 20px;
+                padding: 20px;
+                max-width: 100%;
+            }
+            
+            h1 {
+                font-size: 1.8em;
+            }
+            
+            p {
+                font-size: 1em;
+                text-indent: 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            body {
+                padding-top: 150px;
+            }
+            
+            h1 {
+                font-size: 1.5em;
+            }
+            
+            .container {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Бірінші қарасөз</h1>
+        <p>Бұл жасқа келгенше жақсы өткіздік пе, жаман өткіздік пе, әйтеуір бірталай өмірімізді өткіздік: алыстық, жұлыстық, айтыстық, тартыстық - әурешілікті көре-көре келдік. Енді жер ортасы жасқа келдік: қажыдық, жалықтық; қылып жүрген ісіміздің баянсызын, байлаусызын көрдік, бәрі қоршылық екенін білдік. Ал, енді қалған өмірімізді қайтіп, не қылып өткіземіз? Соны таба алмай өзім де қайранмын.</p>
+
+        <p>Ел бағу? Жоқ, елге бағым жоқ. Бағусыз дертке ұшырайын деген кісі бақпаса, не албыртқан, көңілі басылмаған жастар бағамын демесе, бізді құдай сақтасын!</p>
+
+        <p>Мал бағу? Жоқ, баға алмаймын. Балалар өздеріне керегінше өздері бағар. Енді қартайғанда қызығын өзің түгел көре алмайтұғын, ұры, залым, тілемсектердің азығын бағып беремін деп, қалған аз ғана өмірімді қор қылар жайым жоқ.</p>
+
+        <p>Ғылым бағу? Жоқ, ғылым бағарға да ғылым сөзін сөйлесер адам жоқ. Білгеніңді кімге үйретерсің, білмегеніңді кімнен сұрарсың? Елсіз-күнсізде кездемені жайып салып, қолына кезін алып отырғанның не пайдасы бар? Мұңдасып шер тарқатысар кісі болмаған соң, ғылым өзі - бір тез қартайтатұғын күйік.</p>
+
+        <p>Софылық қылып, дін бағу? Жоқ, ол да болмайды, оған да тыныштық керек. Не көңілде, не көрген күніңде бір тыныштық жоқ, осы елге, осы жерде не қылған софылық?</p>
+
+        <p>Балаларды бағу? Жоқ, баға алмаймын. Бағар едім, қалайша бағудың мәнісін де білмеймін, не болсын деп бағам, қай елге қосайын, қай харекетке қосайын? Балаларымның өзіне ілгері өмірінің, білімінің пайдасын тыныштықпенен керерлік орын тапқаным жоқ, қайда бар, не қыл дерімді біле алмай отырмын, не бол деп бағам? Оны да ермек қыла алмадым.</p>
+
+        <p>Ақыры ойладым: осы ойыма келген нәрселерді қағазға жаза берейін, ақ қағаз бен қара сияны ермек қылайын, кімде-кім ішінен керекті сөз тапса, жазып алсын, я оқысын, керегі жоқ десе, өз сөзім өзімдікі дедім де, ақыры осыған байладым, енді мұнан басқа ешбір жұмысым жоқ.</p>
+        
+        <div class="author">- Абай Құнанбайұлы</div>
+    </div>
+    
+    <audio id="backgroundMusic" loop>
+        <source src="бірінші.m4a" type="audio/mp4">
+    </audio>
+    
+    <script>
+        // Автовоспроизведение с muted
+        document.addEventListener('DOMContentLoaded', function() {
+            const audio = document.getElementById('backgroundMusic');
+            audio.muted = true;
+            
+            // Попытка автовоспроизведения
+            const playPromise = audio.play();
+            
+            if (playPromise !== undefined) {
+                playPromise
+                    .then(() => {
+                        // Если успешно, включаем звук
+                        audio.muted = false;
+                    })
+                    .catch(error => {
+                        // Если заблокировано, включаем при первом клике
+                        document.body.addEventListener('click', function() {
+                            audio.play();
+                            audio.muted = false;
+                        }, { once: true });
+                    });
+            }
+        });
+    </script>
